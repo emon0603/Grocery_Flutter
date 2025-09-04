@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 // Example pages
 import 'Pages/CartPage.dart';
@@ -25,6 +26,10 @@ class _HomePageState extends State<HomePage> {
     const FavouritePage(),
     const ProfilePage(),
   ];
+
+
+
+
 
   @override
   Widget build(BuildContext context) {

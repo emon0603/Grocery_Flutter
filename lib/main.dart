@@ -2,13 +2,14 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:groceries/HomePage.dart';
+import 'package:groceries/LoginRegister/LoginPage.dart';
 import 'package:groceries/Pages/Explore.dart';
 import 'package:groceries/others/DetailsProduct.dart';
 
 import 'Splash_Sceen.dart';
 
 void main() {
- runApp(MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -27,8 +28,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: Splash_Sceen(),
+      child: Loginpage(),
     );
   }
 }
-
